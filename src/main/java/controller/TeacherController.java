@@ -66,6 +66,9 @@ public class TeacherController implements Initializable {
         table.setItems(FXCollections.observableArrayList(ts.getTeacherList()));
 
     }
+    public void  teacher(){
+        
+    }
 
     public void addButtonClikAction() {
         addTeacherToTable();
